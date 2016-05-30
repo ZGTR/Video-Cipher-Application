@@ -1,0 +1,427 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Decryptor/f:IDecryptable.cs" caret="280" fromTop="10" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/f:IEncryptable.cs" caret="221" fromTop="7" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/f:EncryptorHelperModule.cs" caret="219" fromTop="3" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:ExpressionDark.xaml" caret="706" fromTop="11" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Modes/f:ByteEncryptionMode.cs" caret="231" fromTop="9" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Modes/f:ColorComponent.cs" caret="170" fromTop="8" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Modes/f:EncryptionMode.cs" caret="189" fromTop="9" />
+      <File id="D48AD962-4BAA-4B9A-A094-86EB983DF81A/f:Program.cs" caret="1245" fromTop="11" />
+      <File id="D48AD962-4BAA-4B9A-A094-86EB983DF81A/f:App.config" caret="134" fromTop="2" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:App.xaml.cs" caret="0" fromTop="0" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:App.config" caret="216" fromTop="4" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/d:StreamEncryptors/d:Hybrid/f:StreamEncrypBasicHybrid.cs" caret="281" fromTop="9" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:App.xaml" caret="0" fromTop="0" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/d:StreamEncryptors/d:IF/f:StreamEncrypBasicIF.cs" caret="2224" fromTop="0" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/d:StreamEncryptors/d:FBF/f:StreamEncrypBasicFBF.cs" caret="3067" fromTop="14" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/d:StreamEncryptors/d:FBF/f:StreamEncrypQuickFBF.cs" caret="3464" fromTop="51" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/d:ByteEncryptorEngine/f:EncryptingMessage.cs" caret="692" fromTop="3" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Helpers/f:AviVideoReader.cs" caret="464" fromTop="13" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:MainWindow.xaml" caret="17992" fromTop="3" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="10873" fromTop="11" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Decryptor/d:ByteDecryptorEngine/f:ByteDecryptor.cs" caret="1816" fromTop="7" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/d:ByteEncryptorEngine/f:ByteEncryptor.cs" caret="1048" fromTop="10" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/d:StreamEncryptors/d:Hybrid/f:StreamEncrypQuickHybrid.cs" caret="5061" fromTop="5" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/f:EncryptionModeller.cs" caret="2080" fromTop="9" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Decryptor/f:DecryptionModeller.cs" caret="1452" fromTop="9" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Decryptor/d:StreamDecryptors/f:StreamDecrypQuickHybrid.cs" caret="4561" fromTop="20" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Decryptor/f:VideoWriterController.cs" caret="681" fromTop="14" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:MainWindow.xaml.cs" caret="2970" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="13612" fromTop="9" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="14699" fromTop="7" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="1557" fromTop="23" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="1251" fromTop="9" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Decryptor/f:VideoWriterController.cs" caret="681" fromTop="8" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:MainWindow.xaml.cs" caret="1188" fromTop="21" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="18797" fromTop="21" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="3056" fromTop="20" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="555" fromTop="14" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="1045" fromTop="12" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:MainWindow.xaml" caret="1828" fromTop="9" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:MainWindow.xaml" caret="1582" fromTop="8" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="2745" fromTop="8" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="2296" fromTop="1" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="3248" fromTop="10" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="3599" fromTop="20" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="11503" fromTop="28" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:MainWindow.xaml.cs" caret="2909" fromTop="18" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:MainWindow.xaml.cs" caret="2093" fromTop="14" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:MainWindow.xaml" caret="11462" fromTop="7" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:MainWindow.xaml" caret="11850" fromTop="11" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="18570" fromTop="13" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="11002" fromTop="15" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="10511" fromTop="7" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/d:StreamEncryptors/d:Hybrid/f:StreamEncrypQuickHybrid.cs" caret="3982" fromTop="21" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Encryptor/d:StreamEncryptors/d:Hybrid/f:StreamEncrypQuickHybrid.cs" caret="1954" fromTop="18" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:GUIController.cs" caret="9787" fromTop="8" />
+      <File id="F72955C7-F642-4D42-A701-51F608C7C5F7/d:Decryptor/d:ByteDecryptorEngine/f:ByteDecryptor.cs" caret="1757" fromTop="6" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:MainWindow.xaml.cs" caret="2911" fromTop="7" />
+      <File id="658406BC-F49F-4CBD-804B-C0B2C2B213B1/f:MainWindow.xaml.cs" caret="3038" fromTop="11" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="8" />
+      <Item value="void" priority="2" />
+      <Item value="streamReader" priority="1" />
+      <Item value="stream" priority="0" />
+      <Item value="File`0" priority="1" />
+      <Item value="string" priority="5" />
+      <Item value="filePath" priority="0" />
+      <Item value="FileMode`0" priority="0" />
+      <Item value="as" priority="1" />
+      <Item value="StreamReader`0" priority="0" />
+      <Item value="new" priority="23" />
+      <Item value="StreamReader" priority="0" />
+      <Item value="byte" priority="14" />
+      <Item value="fileStream" priority="2" />
+      <Item value="buffer" priority="1" />
+      <Item value="for" priority="4" />
+      <Item value="bitmap" priority="4" />
+      <Item value="Color`0" priority="4" />
+      <Item value="i" priority="1" />
+      <Item value="currentColor" priority="7" />
+      <Item value="HttpStyleUriParser`0" priority="0" />
+      <Item value="bufferPortion" priority="0" />
+      <Item value="iBufferPosition" priority="0" />
+      <Item value="streamEncoder" priority="1" />
+      <Item value="StreamEncoder" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="List&lt;byte&gt;" priority="0" />
+      <Item value="byteR" priority="0" />
+      <Item value="return" priority="14" />
+      <Item value="Bitmap" priority="1" />
+      <Item value="bufferReader" priority="0" />
+      <Item value="Bitmap`0" priority="1" />
+      <Item value="StreamDecoder`0" priority="0" />
+      <Item value="StreamDecoder" priority="0" />
+      <Item value="sD" priority="0" />
+      <Item value="bitmapCiphered" priority="0" />
+      <Item value="bufferOut" priority="2" />
+      <Item value="FileStream`0" priority="0" />
+      <Item value="FileStream" priority="0" />
+      <Item value="Create" priority="0" />
+      <Item value="fStream" priority="0" />
+      <Item value="Count`1" priority="0" />
+      <Item value="Length" priority="2" />
+      <Item value="StreamEncoder`0" priority="0" />
+      <Item value="CreateEvents`0" priority="0" />
+      <Item value="ICipherable`0" priority="0" />
+      <Item value="this" priority="1" />
+      <Item value="newColor" priority="0" />
+      <Item value="colorNative" priority="0" />
+      <Item value="byteToEncrypt" priority="1" />
+      <Item value="colorNativeByteR" priority="3" />
+      <Item value="newEncodedColor" priority="0" />
+      <Item value="iBufferIndexStart" priority="0" />
+      <Item value="CipherBitmap`0" priority="0" />
+      <Item value="colorNativeByteB" priority="0" />
+      <Item value="s" priority="0" />
+      <Item value="byteToReturn" priority="1" />
+      <Item value="int" priority="6" />
+      <Item value="numOfDigits" priority="3" />
+      <Item value="HelperModule`0" priority="1" />
+      <Item value="newColorR" priority="0" />
+      <Item value="newColorB" priority="0" />
+      <Item value="try" priority="4" />
+      <Item value="throw" priority="0" />
+      <Item value="Exception" priority="0" />
+      <Item value="byteIn" priority="0" />
+      <Item value="startIndex" priority="2" />
+      <Item value="byteShiftRight" priority="0" />
+      <Item value="byteShiftLeft" priority="0" />
+      <Item value="byteOut" priority="2" />
+      <Item value="colorB" priority="2" />
+      <Item value="colorR" priority="0" />
+      <Item value="color" priority="0" />
+      <Item value="dest" priority="1" />
+      <Item value="Internals" priority="0" />
+      <Item value="FileVideoSource`0" priority="0" />
+      <Item value="FileVideoSource" priority="0" />
+      <Item value="f" priority="0" />
+      <Item value="StreamEncoderBasicFBF`0" priority="2" />
+      <Item value="StreamEncoderQuickFBF`0" priority="1" />
+      <Item value="eventArgs" priority="0" />
+      <Item value="encoder" priority="0" />
+      <Item value="buffer1" priority="0" />
+      <Item value="buffer2" priority="1" />
+      <Item value="if" priority="8" />
+      <Item value="Console`0" priority="2" />
+      <Item value="bool" priority="3" />
+      <Item value="true" priority="0" />
+      <Item value="isOk" priority="1" />
+      <Item value="false" priority="0" />
+      <Item value="break" priority="2" />
+      <Item value="else" priority="12" />
+      <Item value="StreamDecoderBasicFBF`0" priority="1" />
+      <Item value="Right" priority="0" />
+      <Item value="MessageBox`0" priority="2" />
+      <Item value="OpenDialog" priority="0" />
+      <Item value="OpenFileDialog" priority="0" />
+      <Item value="MainWindow`0" priority="1" />
+      <Item value="mainWindow" priority="1" />
+      <Item value="static" priority="2" />
+      <Item value="GUIMainWindow" priority="16" />
+      <Item value="GUIController`0" priority="9" />
+      <Item value="op" priority="0" />
+      <Item value="ComboBoxItem`0" priority="0" />
+      <Item value="videoPath" priority="1" />
+      <Item value="Uri" priority="4" />
+      <Item value="String`0" priority="0" />
+      <Item value="path" priority="0" />
+      <Item value="switch" priority="0" />
+      <Item value="case" priority="2" />
+      <Item value="RelativeOrAbsolute" priority="1" />
+      <Item value="UriKind`0" priority="1" />
+      <Item value="meVideo" priority="1" />
+      <Item value="meD1Video" priority="0" />
+      <Item value="meD2Video" priority="0" />
+      <Item value="VideoOriginPath" priority="1" />
+      <Item value="VideoEncryptedPath" priority="3" />
+      <Item value="Relative" priority="0" />
+      <Item value="GetAllColoDarkBlueRectsCount`0" priority="0" />
+      <Item value="QuickHybrid" priority="2" />
+      <Item value="BasicIF" priority="2" />
+      <Item value="EncryptionMode`0" priority="0" />
+      <Item value="mode" priority="2" />
+      <Item value="BasicHybrid" priority="0" />
+      <Item value="Int32`0" priority="0" />
+      <Item value="tbTimeSpan" priority="0" />
+      <Item value="textBox" priority="0" />
+      <Item value="ColorComponent`0" priority="2" />
+      <Item value="colorComponent" priority="3" />
+      <Item value="null" priority="1" />
+      <Item value="Red" priority="0" />
+      <Item value="Green" priority="0" />
+      <Item value="Blue" priority="0" />
+      <Item value="spRed" priority="0" />
+      <Item value="stackPanel" priority="0" />
+      <Item value="Colors`0" priority="0" />
+      <Item value="encrypMode" priority="2" />
+      <Item value="decrypMode" priority="1" />
+      <Item value="EncryptingMessage`0" priority="0" />
+      <Item value="isMultColorComp" priority="0" />
+      <Item value="colorComp" priority="2" />
+      <Item value="frameStep" priority="2" />
+      <Item value="timeSpan" priority="1" />
+      <Item value="TimeSpan" priority="0" />
+      <Item value="isTimeSpan" priority="0" />
+      <Item value="frameRate" priority="0" />
+      <Item value="rowStep" priority="0" />
+      <Item value="colStep" priority="0" />
+      <Item value="StreamToEncryptPath" priority="0" />
+      <Item value="Absolute" priority="0" />
+      <Item value="DateTime`0" priority="1" />
+      <Item value="t1" priority="0" />
+      <Item value="AviVideoReader`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Open`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.FileMode">
+      <Item value="Open" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="Read`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileStream">
+      <Item value="Read`0" priority="1" />
+      <Item value="Length" priority="1" />
+      <Item value="Write`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="Height" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="GetPixel`0" priority="0" />
+      <Item value="SetPixel`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Color">
+      <Item value="R" priority="8" />
+      <Item value="A" priority="0" />
+      <Item value="G" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="FromArgb`0" priority="1" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VideoCipherLibrary.StreamEncoder">
+      <Item value="EncodeStream`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+      <Item value="ToArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VideoCipherLibrary.StreamDecoder">
+      <Item value="DecodeBitmap`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Byte">
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VideoCipherLibrary.HelperModule">
+      <Item value="GetLowerBits`0" priority="0" />
+      <Item value="GetLowerBitsByte`0" priority="1" />
+      <Item value="GetMidBitsByte`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VideoCipherLibrary.Encryptor.EncryptionMode">
+      <Item value="BasicInnerVirutalFrame" priority="1" />
+      <Item value="QuickFrameByFrame" priority="2" />
+      <Item value="TryParse`1" priority="0" />
+      <Item value="BasicVF" priority="2" />
+      <Item value="QuickFBF" priority="8" />
+      <Item value="BasicFBF" priority="5" />
+      <Item value="BasicHybrid" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AForge.Video.NewFrameEventArgs">
+      <Item value="Frame" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VideoCipherLibrary.Decryptor.EncryptionModeller">
+      <Item value="_encoder" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VideoCipherLibrary.Encryptor.StreamEncoderBasicFBF">
+      <Item value="_buffer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VideoCipherLibrary.Decryptor.DecryptionModeller">
+      <Item value="_decoder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:VideoCipherLibrary.Decryptor.StreamDecoderBasicFBF">
+      <Item value="_bufferRetrieved" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="Print`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.MediaElement">
+      <Item value="Play`0" priority="2" />
+      <Item value="Source" priority="2" />
+      <Item value="BeginInit`0" priority="0" />
+      <Item value="EndInit`0" priority="2" />
+      <Item value="Stop`0" priority="3" />
+      <Item value="Parent" priority="0" />
+      <Item value="Pause`0" priority="1" />
+      <Item value="CanPause" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Win32.OpenFileDialog">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="FileName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ZGTR_VideoCipherApp.MainWindow">
+      <Item value="meVideo" priority="2" />
+      <Item value="cBoxVideo" priority="0" />
+      <Item value="btnVideoOrigin" priority="0" />
+      <Item value="meD1Video" priority="1" />
+      <Item value="meD2Video" priority="0" />
+      <Item value="rbBasicFBF" priority="1" />
+      <Item value="rbBasicIF" priority="0" />
+      <Item value="rbQuickFBF" priority="0" />
+      <Item value="rbBasicHybrid" priority="0" />
+      <Item value="rbDBasicIF" priority="0" />
+      <Item value="rbDBasicFBF" priority="0" />
+      <Item value="rbDQuickHybrid" priority="0" />
+      <Item value="cbIsTimeSpan" priority="0" />
+      <Item value="tbTimeSpan" priority="0" />
+      <Item value="tbFrameRate" priority="0" />
+      <Item value="tbFrameStep" priority="0" />
+      <Item value="tbRowStep" priority="0" />
+      <Item value="tbColStep" priority="0" />
+      <Item value="rbMultipleColorComp" priority="0" />
+      <Item value="rbOneColorComp" priority="0" />
+      <Item value="rbRed" priority="0" />
+      <Item value="rbGreen" priority="0" />
+      <Item value="spRed" priority="0" />
+      <Item value="spBlue" priority="1" />
+      <Item value="spGreen" priority="0" />
+      <Item value="tbEncrypTime" priority="0" />
+      <Item value="tbDecrypTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ComboBox">
+      <Item value="SelectedIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ZGTR_VideoCipherApp.GUIController">
+      <Item value="VideoOriginPath" priority="1" />
+      <Item value="VideoEncryptedPath" priority="1" />
+      <Item value="SetChosenVideo`0" priority="0" />
+      <Item value="EncryptStream`0" priority="0" />
+      <Item value="NeutralizeAllRectangles`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.UriKind">
+      <Item value="Absolute" priority="1" />
+      <Item value="RelativeOrAbsolute" priority="1" />
+      <Item value="Relative" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBlock">
+      <Item value="HorizontalAlignment" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.RadioButton">
+      <Item value="IsChecked" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.CheckBox">
+      <Item value="IsChecked" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VideoCipherLibrary.Modes.ColorComponent">
+      <Item value="Red" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.StackPanel">
+      <Item value="CheckAccess`0" priority="0" />
+      <Item value="Children" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.UIElementCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@VideoCipherLibrary.Encryptor.ByteEncryptionMode">
+      <Item value="OneColorComponent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="FromSeconds`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Second" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="Seconds" priority="0" />
+      <Item value="TotalSeconds" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AForge.Video.VFW.AVIReader">
+      <Item value="FrameRate" priority="0" />
+      <Item value="Codec" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

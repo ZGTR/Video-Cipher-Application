@@ -1,0 +1,305 @@
+﻿<Window x:Class="ZGTR_VideoCipherApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="592" Width="1105">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Border BorderThickness="2" BorderBrush="Black" Height="556" Width="253">
+                <StackPanel Width="249">
+                <TabControl Height="552">
+                    <TabItem Header="Initial Settings">
+                        <StackPanel Width="235" Height="496">
+                            <Border Padding="10" BorderBrush="White" Width="220" BorderThickness="2" Margin="5" Height="178">
+                                <StackPanel>
+                                    <TextBlock Margin="10" HorizontalAlignment="Center" Foreground="White" FontFamily="Century Gothic" FontWeight="Bold" FontStretch="UltraExpanded" Width="134" TextAlignment="Center" FontStyle="Italic" FontSize="17">
+                            Control Panel
+                                    </TextBlock>
+                                    <Button Name="btnVideoOrigin" Height="28" Margin="3" Click="btnVideoOrigin_Click">
+                                        Choose Video Origin
+                                    </Button>
+                                        <Button Name="btnVideoCiphere" Height="28" Margin="3" Click="btnVideoCiphere_Click">
+                                            Choose Video Ciphered
+                                        </Button>
+                                        <Button Name="btnStreamEncrypt" Height="28" Margin="3" Click="btnSetStreamEncrypt_Click">
+                                        Choose Stream to Encrypt
+                                    </Button>
+
+                                    </StackPanel>
+                            </Border>
+                        </StackPanel>
+                    </TabItem>
+                    <TabItem Header="Encryption Settings">
+                        <StackPanel Height="510">
+                            <Expander Width="215" Header="Encrypting Method">
+                                <StackPanel Width="199">
+                                    <RadioButton Name="rbBasicIF" Margin="2">
+                                        Basic Inner Frame
+                                    </RadioButton>
+                                    <RadioButton Name="rbBasicFBF" Margin="2">
+                                        Basic FBF
+                                    </RadioButton>
+                                    <RadioButton Name="rbQuickFBF" Margin="2">
+                                        Quick FBF
+                                    </RadioButton>
+                                    <RadioButton Name="rbBasicHybrid" Margin="2">
+                                        Basic Hybrid all round
+                                    </RadioButton>
+                                    <RadioButton Name="rbQuickHybrid" Margin="2">
+                                        Quick Hybrid all round
+                                    </RadioButton>
+                                    </StackPanel>
+                            </Expander>
+                            <Expander Width="215" Header="Decrypting Method">
+                                <StackPanel Width="199">
+                                    <RadioButton Name="rbDBasicIF" Margin="2">
+                                        Basic Inner Frame
+                                    </RadioButton>
+                                    <RadioButton Name="rbDBasicFBF" Margin="2">
+                                        Basic FBF
+                                    </RadioButton>
+                                    <RadioButton Name="rbDBasicHybrid" Margin="2">
+                                        Basic Hybrid
+                                    </RadioButton>
+                                    <RadioButton Name="rbDQuickHybrid" Margin="2">
+                                        Quick Hybrid
+                                    </RadioButton>
+                                </StackPanel>
+                            </Expander>                            
+                            <Border BorderThickness="2" Width="237" Margin="0">
+                                    <StackPanel Width="229">
+                                        <Expander Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Grid.RowSpan="5" Header="Time" Width="216">
+                                            <Grid >
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="9*" />
+                                                    <ColumnDefinition Width="73*" />
+                                                    <ColumnDefinition Width="10*" />
+                                                    <ColumnDefinition Width="107*" />
+                                                    <ColumnDefinition Width="6*" />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="10*" />
+                                                    <RowDefinition Height="30" />
+                                                    <RowDefinition Height="30" />
+                                                    <RowDefinition Height="30" />
+                                                </Grid.RowDefinitions>
+                                                <CheckBox Name="cbIsTimeSpan" Content="Is Time Span" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1" VerticalAlignment="Center" IsChecked="True" />
+                                                <TextBlock FontFamily="Century Gothic" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center">Time Span</TextBlock>
+                                                <TextBlock FontFamily="Century Gothic" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center">Frame Rate</TextBlock>
+                                                <TextBox Name="tbTimeSpan" VerticalAlignment="Center" Grid.Column="3" Grid.Row="2">
+                                                    1
+                                                </TextBox>
+                                                <TextBox Name="tbFrameRate" VerticalAlignment="Center" Grid.Column="3" Grid.Row="3">
+                                                    1
+                                                </TextBox>
+                                            </Grid>
+                                        </Expander>
+                                    </StackPanel>
+                            </Border>
+                            <Border Padding="2" Margin="2" Height="422" Width="236" BorderBrush="White" BorderThickness="2">
+                            <GroupBox Height="408">
+                                <Grid Height="389">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="10" />
+                                            <RowDefinition Height="30" />
+                                            <RowDefinition Height="30" />
+                                            <RowDefinition Height="30" />
+                                            <RowDefinition Height="30" />
+                                            <RowDefinition Height="30" />
+                                                <RowDefinition Height="215*" />
+                                            </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="8*" />
+                                            <ColumnDefinition Width="81*" />
+                                            <ColumnDefinition Width="12*" />
+                                            <ColumnDefinition Width="110*" />
+                                            <ColumnDefinition Width="5*" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Century Gothic" Grid.Column="1">
+                                            Frame Step
+                                        </TextBlock>
+                                        <TextBlock Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Century Gothic" Grid.ColumnSpan="2" Grid.Column="1">
+                                            Row Area Step
+                                        </TextBlock>
+                                        <TextBlock Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Century Gothic" Grid.ColumnSpan="2" Grid.Column="1">
+                                            Col Area Step
+                                        </TextBlock>
+                                        <TextBox Name="tbFrameStep" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center">
+                                            1
+                                        </TextBox>
+                                        <TextBox Name="tbRowStep" Grid.Row="2" Grid.Column="3" VerticalAlignment="Center">
+                                            1
+                                        </TextBox>
+                                        <TextBox Name="tbColStep" Grid.Row="3" Grid.Column="3" VerticalAlignment="Center">
+                                            1
+                                        </TextBox>
+                                            <Border BorderThickness="2" Background="{x:Null}" BorderBrush="White" Grid.ColumnSpan="4" Margin="7,11,1,197" Grid.RowSpan="2" Grid.Row="5">
+                                                <StackPanel Width="200" Height="33">
+                                                    <TextBlock Margin="10" HorizontalAlignment="Center" Foreground="White" FontFamily="Century Gothic" FontWeight="Bold" FontStretch="UltraExpanded" Width="193" TextAlignment="Center" FontStyle="Italic" FontSize="13">
+                            Encryption/Decryption Info
+                                                    </TextBlock>
+                                                </StackPanel>
+                                            </Border>
+
+                                            <Button Grid.Row="4" Name="btnEncryDecryp" Height="28" Click="btnEncryDecryp_Click"  Grid.ColumnSpan="4" Margin="7,0,0,2">
+                                                Encrypt/Decrypt Stream
+                                            </Button>
+                                            <StackPanel Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" Margin="0,36,1,0">
+                                                <TextBlock FontFamily="Century Gothic" FontStyle="Italic" Margin="2">
+                                    Encryption Time:
+                                                </TextBlock>
+                                                <TextBlock Name="tbEncrypTime" FontFamily="Century Gothic" HorizontalAlignment="Center" Width="128" />
+                                                <TextBlock FontFamily="Century Gothic" FontStyle="Italic" Margin="2">
+                                    Decryption Time:
+                                                </TextBlock>
+                                                <TextBlock Name="tbDecrypTime" FontFamily="Century Gothic" HorizontalAlignment="Center" Width="122" />
+                                            </StackPanel>
+                                        </Grid>
+                            </GroupBox>
+                        </Border>
+                        </StackPanel>
+                    </TabItem>
+                        <TabItem Header="Byte Encryption">
+                            <GroupBox Grid.Row="4" Grid.ColumnSpan="4" Grid.RowSpan="3" Margin="6,0,0,6" Height="497" Width="239">
+                                <Grid Height="451">
+                                    <RadioButton Name="rbMultipleColorComp" Margin="0,0,0,81">
+                                        Multiple Color Component
+                                    </RadioButton>
+                                    <Border BorderThickness="1" BorderBrush="White" Margin="0,0,0,-17"></Border>
+                                    <StackPanel Name="spColorComp" Height="149" Margin="5,20,3,282">
+                                        <TextBlock Foreground="White" FontFamily="Century Gothic" FontWeight="Bold" FontStretch="UltraExpanded" TextAlignment="Center" FontStyle="Italic" FontSize="12">
+                                            Multiple Color Component</TextBlock>
+                                        <Grid Height="106">
+                                            <TextBlock Margin="-3,10,173,77" Foreground="White" FontFamily="Century Gothic" FontWeight="Bold" FontStretch="UltraExpanded" TextAlignment="Center" FontStyle="Italic" FontSize="12">
+                                Red</TextBlock>
+                                            <TextBlock Margin="-8,44,166,43" Foreground="White" FontFamily="Century Gothic" FontWeight="Bold" FontStretch="UltraExpanded" TextAlignment="Center" FontStyle="Italic" FontSize="12">
+                                Green</TextBlock>
+                                            <TextBlock Margin="0,79,170,8" Foreground="White" FontFamily="Century Gothic" FontWeight="Bold" FontStretch="UltraExpanded" TextAlignment="Center" FontStyle="Italic" FontSize="12">
+                                Blue</TextBlock>
+                                            <StackPanel Name="spRed" HorizontalAlignment="Right" Orientation="Horizontal" Margin="0,0,2,70">
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="DarkRed"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="DarkRed"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="DarkRed"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="DarkRed"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="DarkRed"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="DarkRed"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="DarkRed"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="DarkRed"></Rectangle>
+                                            </StackPanel>
+                                            <StackPanel Name="spGreen" HorizontalAlignment="Right" Orientation="Horizontal" Margin="0,2,2,2" Width="176">
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Green"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Green"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Green"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Green"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Green"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Green"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Green"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Green"></Rectangle>
+                                            </StackPanel>
+                                            <StackPanel Name="spBlue" HorizontalAlignment="Right" Orientation="Horizontal" Margin="0,70,3,0">
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Blue"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Blue"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Blue"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Blue"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Blue"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Blue"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Blue"></Rectangle>
+                                                <Rectangle Fill="White" Width="22" Height="22" Stroke="Blue"></Rectangle>
+                                            </StackPanel>
+                                        </Grid>
+                                        <Button Margin="5" Height="22" Click="Button_Click" Width="210">Neutralize Components</Button>
+                                    </StackPanel>
+                                    <RadioButton Name="rbOneColorComp" Margin="0,174,0,259">
+                                        One Color Component
+                                    </RadioButton>
+                                    <StackPanel Margin="27,198,27,201">
+                                        <RadioButton Name="rbRed">
+                                            Red
+                                        </RadioButton>
+                                        <RadioButton Name="rbGreen">
+                                            Green
+                                        </RadioButton>
+                                        <RadioButton Name="rbBlue">
+                                            Blue
+                                        </RadioButton>
+                                    </StackPanel>
+                                </Grid>
+                            </GroupBox>
+                        </TabItem>
+                    </TabControl>                
+            </StackPanel>
+            </Border>
+            <Border BorderThickness="2" BorderBrush="Black" Width="835">
+            <TabControl Width="840">
+                <TabItem Header="Video Viewer">
+                    <Grid Width="795" Height="515">
+                        <MediaElement Name="meVideo" Margin="33,18,36,82" 
+                                      LoadedBehavior="Manual">                        </MediaElement>
+                        <DockPanel Margin="33,439,24,6" OpacityMask="#FF000014">
+                            <Border BorderThickness="2" BorderBrush="White">
+                                <Grid>
+                            <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+                            <TextBlock VerticalAlignment="Center" Margin="10,0,10,0" Foreground="White"> 
+                                Choose Video to Play
+                            </TextBlock>
+                            <ComboBox Name="cBoxVideo" Height="31" Width="187">
+                                <ComboBoxItem>
+                                    Video Origin
+                                </ComboBoxItem>
+                                <ComboBoxItem>
+                                    Video Encrypted
+                                </ComboBoxItem>
+                            </ComboBox>                            
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Width="409" HorizontalAlignment="Right">
+                            <Button Name="btnSetVideo" Click="btnSetVideo_Click"  HorizontalAlignment="Center" Width="91" Height="30" Margin="5">
+                                Set Video
+                            </Button>
+                            <Button Name="btnPlayVideo" Click="btnPlayVideo_Click" HorizontalAlignment="Center" Width="91" Height="30" Margin="5">
+                                Play
+                            </Button>
+                                <Button Name="btnPause" Click="btnPause_Click"  HorizontalAlignment="Center" Width="91" Height="30" Margin="5">
+                                Pause
+                            </Button>
+                                <Button Name="btnStop" Click="btnStop_Click"  HorizontalAlignment="Center" Width="91" Height="30" Margin="5">
+                                Stop
+                            </Button>
+                        </StackPanel>
+                                </Grid>
+                            </Border>
+                        </DockPanel>                            
+                        </Grid>
+                </TabItem>
+                <TabItem Header="Dual Video Viewer">
+                        <Grid Width="795" Height="515">
+                            <MediaElement Name="meD1Video" Margin="38,18,400,82" LoadedBehavior="Manual">
+                                
+                            </MediaElement>
+                            <MediaElement Name="meD2Video" Margin="412,18,30,82" LoadedBehavior="Manual">
+
+                            </MediaElement>
+                            <DockPanel Margin="33,439,24,6" OpacityMask="#FF000014">
+                                <Border BorderThickness="2" BorderBrush="White">
+                                    <Grid>
+                                        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal" DockPanel.Dock="Right" Width="307" HorizontalAlignment="Right">
+                                            <Button Name="btnDPlayVideo" Click="btnDPlayVideo_Click"  HorizontalAlignment="Center" Width="91" Height="30" Margin="5">
+                                                Play
+                                            </Button>
+                                            <Button Name="btnDPause" Click="btnDPause_Click"  HorizontalAlignment="Center" Width="91" Height="30" Margin="5">
+                                                Pause
+                                            </Button>
+                                            <Button Name="btnDStop" Click="btnDStop_Click"  HorizontalAlignment="Center" Width="91" Height="30" Margin="5">
+                                                Stop
+                                            </Button>
+                                        </StackPanel>
+                                    </Grid>
+                                </Border>
+                            </DockPanel>
+                        </Grid>
+                    </TabItem>
+            </TabControl>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>

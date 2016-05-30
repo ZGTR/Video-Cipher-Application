@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VideoCipherLibrary.Decryptor.ByteDecryptorEngine.ByteDecryptor">
+    <Position X="6.75" Y="7.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decryptor\ByteDecryptorEngine\ByteDecryptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoCipherLibrary.Decryptor.DecryptionModeller" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Decryptor\DecryptionModeller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoCipherLibrary.Decryptor.VideoWriterController" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAIAAAASAAAAAACAAAAAEA=</HashCode>
+      <FileName>Decryptor\VideoWriterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoCipherLibrary.Decryptor.EncryptionModeller" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAIgAACAAAAAAAEQAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Encryptor\EncryptionModeller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoCipherLibrary.Decryptor.StreamDecryptors.StreamDecrypBasicFBF" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEABAACAQIQAAAAAgAABAAIACAAACABAAAAAAAACA=</HashCode>
+      <FileName>Decryptor\StreamDecryptors\StreamDecrypBasicFBF.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoCipherLibrary.Decryptor.StreamDecryptors.StreamDecrypBasicHybrid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEABAACAQIQAAAAAgAABAAIACAAACABAAAAAAAACA=</HashCode>
+      <FileName>Decryptor\StreamDecryptors\StreamDecrypBasicHybrid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoCipherLibrary.Decryptor.StreamDecryptors.StreamDecrypBasicIF" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEABAACAQIQAAAAAgAABAAIACAAACABAAAAAAAACA=</HashCode>
+      <FileName>Decryptor\StreamDecryptors\StreamDecrypBasicIF.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoCipherLibrary.Decryptor.StreamDecryptors.StreamDecrypQuickHybrid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEEABAACAQIQAAAAAgAAAAAIACAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Decryptor\StreamDecryptors\StreamDecrypQuickHybrid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoCipherLibrary.Modes.ByteEncryptor">
+    <Position X="6.75" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Encryptor\ByteEncryptorEngine\ByteEncryptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoCipherLibrary.Encryptor.ByteEncryptorEngine.EncryptingMessage">
+    <Position X="4.5" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAEAAQAAIAAIAAAQAAAgCQAAAAAQAA=</HashCode>
+      <FileName>Encryptor\ByteEncryptorEngine\EncryptingMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoCipherLibrary.Encryptor.StreamEncrypBasicFBF" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAIABAgCIQAQAABAAgIAAAAIAAAAAGARIAAAAAAAAA=</HashCode>
+      <FileName>Encryptor\StreamEncryptors\FBF\StreamEncrypBasicFBF.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoCipherLibrary.Encryptor.StreamEncrypQuickFBF" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACEIABAgCAQAQAABAAgIAAAAIAAAAAEAQAAAAAAAAAA=</HashCode>
+      <FileName>Encryptor\StreamEncryptors\FBF\StreamEncrypQuickFBF.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoCipherLibrary.Encryptor.StreamEncrypBasicHybrid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAIABAgCIQAQAABAAgIAAAAIAAAAAGAQIAAAAAAAAA=</HashCode>
+      <FileName>Encryptor\StreamEncryptors\Hybrid\StreamEncrypBasicHybrid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoCipherLibrary.Encryptor.StreamEncrypQuickHybrid" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACEIABAgAAQAQAABAAgIAAAAIAAAAAEAQAAAAAAAAAA=</HashCode>
+      <FileName>Encryptor\StreamEncryptors\Hybrid\StreamEncrypQuickHybrid.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoCipherLibrary.Encryptor.StreamEncrypBasicIF" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAIABAgCIQAQAABAAgIAAAAIAAAAAGARIAAAAAAAAA=</HashCode>
+      <FileName>Encryptor\StreamEncryptors\IF\StreamEncrypBasicIF.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VideoCipherLibrary.AviVideoReader" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\AviVideoReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoCipherLibrary.Helpers.FastPixelImage" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAARABgABQCAIAABAAgAAEBAABAAAAAAAIAAAABABAA=</HashCode>
+      <FileName>Helpers\FastPixelImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VideoCipherLibrary.Helpers.HelperModule" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAEIAA=</HashCode>
+      <FileName>Helpers\HelperModule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="VideoCipherLibrary.Decryptor.IDecryptable">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Decryptor\IDecryptable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="VideoCipherLibrary.Encryptor.IEncryptable">
+    <Position X="10.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Encryptor\IEncryptable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="VideoCipherLibrary.Modes.ColorComponent">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Modes\ColorComponent.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VideoCipherLibrary.Encryptor.ByteEncryptionMode">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modes\ByteEncryptionMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="VideoCipherLibrary.Encryptor.EncryptionMode">
+    <Position X="2.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAQAAgAAAAAAAAAAAAAAACAAgAAAA=</HashCode>
+      <FileName>Modes\EncryptionMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

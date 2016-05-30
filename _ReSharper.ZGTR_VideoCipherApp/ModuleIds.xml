@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="658406BC-F49F-4CBD-804B-C0B2C2B213B1" ModuleId="ZGTR_VideoCipherApp" />
+  <Module PersistentId="F72955C7-F642-4D42-A701-51F608C7C5F7" ModuleId="VideoCipherLibrary" />
+  <Module PersistentId="D48AD962-4BAA-4B9A-A094-86EB983DF81A" ModuleId="TestApp" />
+</Modules>

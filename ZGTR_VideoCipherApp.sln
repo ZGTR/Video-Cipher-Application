@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZGTR_VideoCipherApp", "ZGTR_VideoCipherApp\ZGTR_VideoCipherApp.csproj", "{658406BC-F49F-4CBD-804B-C0B2C2B213B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoCipherLibrary", "VideoCipherLibrary\VideoCipherLibrary.csproj", "{F72955C7-F642-4D42-A701-51F608C7C5F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{D48AD962-4BAA-4B9A-A094-86EB983DF81A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{658406BC-F49F-4CBD-804B-C0B2C2B213B1}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{658406BC-F49F-4CBD-804B-C0B2C2B213B1}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{658406BC-F49F-4CBD-804B-C0B2C2B213B1}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{658406BC-F49F-4CBD-804B-C0B2C2B213B1}.Debug|x86.ActiveCfg = Debug|x86
+		{658406BC-F49F-4CBD-804B-C0B2C2B213B1}.Debug|x86.Build.0 = Debug|x86
+		{658406BC-F49F-4CBD-804B-C0B2C2B213B1}.Release|Any CPU.ActiveCfg = Release|x86
+		{658406BC-F49F-4CBD-804B-C0B2C2B213B1}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{658406BC-F49F-4CBD-804B-C0B2C2B213B1}.Release|Mixed Platforms.Build.0 = Release|x86
+		{658406BC-F49F-4CBD-804B-C0B2C2B213B1}.Release|x86.ActiveCfg = Release|x86
+		{658406BC-F49F-4CBD-804B-C0B2C2B213B1}.Release|x86.Build.0 = Release|x86
+		{F72955C7-F642-4D42-A701-51F608C7C5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72955C7-F642-4D42-A701-51F608C7C5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72955C7-F642-4D42-A701-51F608C7C5F7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F72955C7-F642-4D42-A701-51F608C7C5F7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F72955C7-F642-4D42-A701-51F608C7C5F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F72955C7-F642-4D42-A701-51F608C7C5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72955C7-F642-4D42-A701-51F608C7C5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72955C7-F642-4D42-A701-51F608C7C5F7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F72955C7-F642-4D42-A701-51F608C7C5F7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F72955C7-F642-4D42-A701-51F608C7C5F7}.Release|x86.ActiveCfg = Release|Any CPU
+		{D48AD962-4BAA-4B9A-A094-86EB983DF81A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D48AD962-4BAA-4B9A-A094-86EB983DF81A}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D48AD962-4BAA-4B9A-A094-86EB983DF81A}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{D48AD962-4BAA-4B9A-A094-86EB983DF81A}.Debug|x86.ActiveCfg = Debug|x86
+		{D48AD962-4BAA-4B9A-A094-86EB983DF81A}.Debug|x86.Build.0 = Debug|x86
+		{D48AD962-4BAA-4B9A-A094-86EB983DF81A}.Release|Any CPU.ActiveCfg = Release|x86
+		{D48AD962-4BAA-4B9A-A094-86EB983DF81A}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D48AD962-4BAA-4B9A-A094-86EB983DF81A}.Release|Mixed Platforms.Build.0 = Release|x86
+		{D48AD962-4BAA-4B9A-A094-86EB983DF81A}.Release|x86.ActiveCfg = Release|x86
+		{D48AD962-4BAA-4B9A-A094-86EB983DF81A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
